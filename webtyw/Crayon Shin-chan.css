@@ -1,0 +1,138 @@
+body { 
+  background-image: url(img/7.jpg) ;
+  font-family:      Georgia, "斜体", Times, serif;
+  font-size:        small;
+  margin:           0px;
+}
+
+header.top{
+	background-image: url(img/4.jpg);
+	margin: 0px 0px 0px 0px;
+    height:           220px;
+}
+span.small{
+	color: #AD5A5A;
+	font-weight: normal;
+	font-size: 3.0em; 
+	margin-left: 50px;
+	margin-top: 30px;
+}
+nav {
+    background-color: #C4E1FF;
+	margin: 0px 0px 0px 0px;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 20px 10px 200px;
+}
+nav ul li {
+	display: inline;
+	font-style: italic；
+	background-color：#00CACA；
+	padding: 30px 30px 30px 30px;
+}
+nav ul li > a{
+	width: 100px;
+	padding: 30px 100px 30px 100px;
+}
+div#tableContainer {
+	display: table;
+	border-spacing: 10px;
+}
+div#tableRow {
+	display: table-row;
+}
+div#background{
+  background-color: #FFBD9D;
+  border-spacing: 10px;
+}
+section#back{
+	display: table-cell;
+    background-color: #FFECF5;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+body div section#back{
+  display: table-cell;
+    background-color: #FFECF5;
+    width: 20%;
+    padding: 15px;
+    vertical-align: top;
+}
+body div video{
+  margin-top: 30px;
+  margin-left: 270px;
+}
+section#main {
+  display: table-cell;
+  background:       #FFECF5 top left;
+  font-size:        105%;
+  padding:          15px;
+  vertical-align: top;
+}
+section#video{
+  font-size:        200%;
+  margin-left: 650px;
+
+}
+aside {
+  display: table-cell;
+  background:       #FFECF5  bottom right;
+  font-size:        115%;
+  padding:          15px;
+  vertical-align: top;
+}
+
+footer {
+  background-color: #C4E1FF;
+  color:            #00CACA;
+  text-align:       center;
+  padding:          15px;
+  margin: 0px 0px 0px 0px;
+  font-size:        20px;
+}
+
+h1 {
+  font-size:        120%;
+  color:            #954b4b;
+}
+
+h2 { font-size: 110%; }
+
+.slogan { color: #954b4b; }
+
+.beanheading {
+  text-align:       center;
+  line-height:      1.8em;
+}
+
+a:link {
+  color:            #b76666;
+  text-decoration:  none;
+  border-bottom:    thin dotted #b76666;
+}
+a:visited {
+  color:            #675c47;
+  text-decoration:  none;
+  border-bottom:    thin dotted #675c47;
+}
+
+
+nav ul li a:link, nav ul li a:visited {
+	color: #954b4b;
+	border-bottom: none;
+	font-weight: bold;
+	text-shadow: 1px 1px 3px #e2c2c2; 
+	text-transform: uppercase;
+}
+
+li.selected {
+	background-color: #c8b99c;
+  opacity: 0.5;
+}
+
+article span {
+	font-style: italic;
+}
