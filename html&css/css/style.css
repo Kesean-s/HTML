@@ -1,0 +1,213 @@
+body{
+	background:url(../images/bg-body.jpg);
+}
+/*------------------------- Header -------------------------*/
+.header {
+	/*棕色背景图*/
+	background:url(../images/bg-header.jpg) repeat-x;
+	/*repeat-x横向铺满*/
+	height:125px;
+}
+.header div{
+	float: right;
+	position:static;
+	width:475px;
+}
+.header div > a {
+	display:block;
+	float:right;
+	margin:0 19px 0 0;
+	width:201px;
+	height:58px;
+	background:url(../images/interface.png) no-repeat 0 -67px;
+}
+.header div > a:hover {
+	/*触碰触发*/
+	background:url(../images/interface.png) no-repeat 0 -126px;
+}
+.header div ul {
+	clear:both;
+	list-style:none;
+	/*去点*/
+	padding:21px 0 0;
+}
+.header div ul li {
+	float:left;/*横排*/
+	margin:0 0 0 30px;
+}
+.header div ul li a:first-child {
+	color:#fff;
+	text-decoration:none;/*去下划线*/
+}
+.header div ul li a:hover {
+	/*触碰触发*/
+	color:#fff600;
+}
+/*------------------------- Body ---------------------------*/
+.body .home .featured {
+	background:url(../images/bg-featured.png) repeat-x;
+	height:396px;
+}
+.body .home .featured div {
+	background:url(../images/bg-featured.jpg) no-repeat;
+	height:396px;
+	margin:0 auto;
+	width:960px;
+}
+.body .home .featured div p {
+	color:#fff;
+	font-size:50px;/*字号*/
+	line-height:60px;/*行距*/
+	margin:0 0 0 120px;
+	padding:50px 0 0;/*距上边界距离*/
+	text-shadow:0 1px 1px #000;
+}
+.body .home .section {
+	margin:0 auto;
+	overflow:hidden;
+	width:940px;
+}
+.body .home .section div:first-child {
+	float:left;
+}
+.body .home .section div:first-child div ul li {
+	border:0;
+	float:left;
+	margin:0 0 0 20px;
+	width:220px;
+}
+.body .home .section div:first-child div ul li h4 a {
+	color:#404040;
+	float:none;
+	font-size:14px;
+	font-weight:400;
+	line-height:24px;
+	text-decoration:none;
+}
+.body .home .section div:first-child div ul li p {
+	color:#838383;
+	font-size:14px;
+	line-height:24px;
+}
+.body .home .section div {
+	float:right;
+	width:460px;
+}
+.body .home .section div div ul {
+	margin:0;
+	padding:0;
+}
+.body .home .section div div ul li {
+	border-top:1px solid #c9c9c9;
+	overflow:hidden;
+	padding:14px 0 26px;
+}
+.body .home .section div div ul li div {
+	float:right;
+	width:340px;
+}
+.body .home .section div div ul li div h4 {
+	margin:0;/*段距设为0*/
+}
+.body .home .section div div ul li div h4 a {
+	color:#404040;
+	font-size:14px;
+	text-decoration:none;
+}
+.body .home .section div div ul li div p {
+	color:#838383;
+	float:left;
+	font-size:14px;/*字号设置*/
+	margin:0;/*段距设为0*/
+}
+.body .home .section div div ul li div p a.more {
+	color:#cc6a00;
+	text-decoration:none;
+}
+.body .home .section div div ul li div p a.more:hover {
+	text-decoration:underline;
+	color:#cc6a00;
+}
+.body .home .section div:first-child div:first-child, .body .home .section div div:first-child {
+	background:url(../images/arrow-gray.png) repeat-x left bottom;
+	padding:0 0 34px;
+}
+.body .home .section div:first-child div h3 a, .body .home .section div div h3 a {
+	color:#404040;
+	font-size:30px;
+	font-weight:400;
+	text-decoration:none;/*是否有下划线*/
+}
+.body .home .section div:first-child div ul li:first-child, .body .home .section div:first-child div ul li h4, .body .about ul li:first-child, .body .gallery ul li:first-child{
+	margin:0;
+}
+.body .home .section div div:first-child p, .body .blog div ul li p{
+	/*正文字体*/
+	color:#838383;
+	font-size:15px;
+	margin:0;/*段距*/
+}
+/***************************index****************************/
+.body .blog{
+	margin:0 auto;
+	width:1000px;
+}
+.body .blog div{
+	float:left;
+	width:700px;
+}
+.body .blog div ul li div h4{
+	/*杭州垃圾分类*/
+	font-size:30px;
+	color: #666;
+}
+
+.body .blog div ul li div{
+	padding:14px 0 15px;
+	width:601px;
+/***************************blog****************************/
+}.body .about {
+	width:940px;
+	margin-right: auto;
+	margin-left: auto;
+	color: #666;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.body .about h2 {
+	font-size:30px;
+}
+/***************************about****************************/
+.body .gallery {
+	margin:0 auto 271px;
+	width:940px;
+}
+.body .gallery div h2 {
+	float:left;
+	color: #666;
+	font-size:30px;
+	font-weight:400;/*字粗细*/
+}
+.body .gallery ul {
+	list-style:none;
+	margin:0 0 0 -20px;
+	overflow:hidden;
+	padding:4px 0 0;
+}
+.body .gallery ul li {
+	float:left;
+	margin:0;
+	min-height:250px;/*两列图片间距*/
+	padding:0 0 0 20px;
+	width:220px;
+}
+.body .gallery div{
+	overflow:hidden;
+}
+/***************************footer****************************/
+#footer {
+	color:#c9c9c9;
+	text-align:       center;
+	padding:          15px;
+	margin:           10px;
+}
